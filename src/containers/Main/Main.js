@@ -9,8 +9,8 @@ const Main = () => {
     <div className='overlay'></div>
     <video src={videoBg} autoPlay loop muted/>
     <div className="content">
-    <h1>Thailand Health Retreat</h1>
-    <p>Launching Soon</p>
+    <h1 className='heading-main'>Thailand Health Retreat</h1>
+    <p className='p-main'>Launching Soon</p>
     <Count/>
     </div>
     

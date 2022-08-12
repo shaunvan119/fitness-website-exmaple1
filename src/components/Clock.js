@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import './count.css'
 
 const Clock = ({ deadline }) => {
   const [days, setDays] = useState(0);
@@ -32,11 +33,11 @@ const Clock = ({ deadline }) => {
   }, [deadline]);
 
   return (
-    <div>
-      <div className="Clock-days">{leading0(days)} Days</div>
-      <div className="Clock-hours">{leading0(hours)} Hours</div>
-      <div className="Clock-minutes">{leading0(minutes)} Minutes</div>
-      <div className="Clock-seconds">{leading0(seconds)} Seconds</div>
+    <div className="clock-wrapper">
+      <div className="Clock-box">{leading0(days)}<br/> Days</div>
+      <div className="Clock-box">{leading0(hours)}<br/> Hours</div>
+      <div className="Clock-box">{leading0(minutes)}<br/> Minutes</div>
+      <div className="Clock-box">{leading0(seconds)}<br/> Seconds</div>
     </div>
   );
 };
