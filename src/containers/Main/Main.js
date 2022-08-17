@@ -2,7 +2,7 @@ import './main.css'
 import videoBg from "../../assets/videoBg.mp4"
 import Count from '../../components/Count'
 import logo from "../../assets/logo.png"
-import CalenderDates from '../../components/CalenderDates'
+
 
 
 const Main = () => {
@@ -20,7 +20,7 @@ const Main = () => {
     <h1 className='heading-main'>Thailand Health Retreat</h1>
     <p className='p-main'>Launching Soon</p>
     <Count/>
-    <CalenderDates/>
+
     </div>
     
     </div>
