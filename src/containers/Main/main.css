@@ -52,6 +52,7 @@ video {
 .button-dates {
   position: absolute;
   right: 0;
+  top: 0;
   margin: 40px;
   padding: 10px;
   border-radius: 10px;
