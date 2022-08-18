@@ -7,7 +7,12 @@ const CountSpotsTwo = () => {
     const timer = () => setCount(currentCount - 1);
 
     useEffect(
-        () => {
+        () => () => {
+            if(currentCount <= 0)
+        {
+            
+            document.getElementById('countdown').innerHTML = "Sold Out";
+        }
             if (currentCount < 1) {
                 return;
             }
@@ -18,10 +23,11 @@ const CountSpotsTwo = () => {
     );
 
     return (
-        <div className='count-box'>
-                <h1 className="main-h1-count">Leads<br/>Generated<br/></h1>
+            <div className='count-box'>
+                <h2 className="spots-h1">Spots remaining:</h2>
                 <span className='count-component'>{currentCount}</span> 
-                </div>
+                <div id="countdown"></div>
+            </div>
        
     )
 };

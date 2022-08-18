@@ -16,55 +16,11 @@ const CheckDates = () => {
     <div className="content">
     <h1 className='heading-main'>Dates</h1>
 
-     <ul >
-     <hr
-        style={{
-          background: 'grey',
-          border: 'none',
-          height: '3px',
-          marginBottom:'15px',
-        }}
-      />
-        <li>kamala Beach, Phuket Thailand November 1st 2022 <CountSpots/></li>
-        <hr
-        style={{
-          background: 'grey',
-          border: 'none',
-          height: '3px',
-          marginTop:'15px',
-          marginBottom:'15px',
-        }}
-      />
-        <li>Ko Samui, Phuket Thailand February 19th 2023 <CountSpotsTwo/></li>
-        <hr
-        style={{
-          background: 'grey',
-          border: 'none',
-          height: '3px',
-          marginTop:'15px',
-          marginBottom:'15px',
-        }}
-      />
-        <li>kamala Beach, Phuket Thailand October 1st 2023 <CountSpotsThree/></li>
-        <hr
-        style={{
-          background: 'grey',
-          border: 'none',
-          height: '3px',
-          marginTop:'15px',
-          marginBottom:'15px',
-        }}
-      />
-        <li>kamala Beach, Phuket Thailand November 1st 2023 <CountSpotsFour/></li>
-        <hr
-        style={{
-          background: 'grey',
-          border: 'none',
-          height: '3px',
-          marginTop:'15px',
-          marginBottom:'15px',
-        }}
-      />
+     <ul className="list-ul">
+        <li className="list-dates">kamala Beach, Phuket Thailand November 1st 2022 <span className='count-font'><CountSpots/></span></li>
+        <li className="list-dates">Ko Samui, Phuket Thailand February 19th 2023 <span className='count-font'><CountSpotsTwo/></span></li>
+        <li className="list-dates">kamala Beach, Phuket Thailand October 1st 2023 <span className='count-font'><CountSpotsThree/></span></li>
+        <li className="list-dates">kamala Beach, Phuket Thailand November 1st 2023 <span className='count-font'><CountSpotsFour/></span></li>
      </ul>
    
     

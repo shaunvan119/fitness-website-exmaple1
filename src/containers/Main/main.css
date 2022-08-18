@@ -63,3 +63,24 @@ video {
   opacity: .8;
 
 }
+
+.list-included {
+  margin-top: 20px;
+  font-size: 25px;
+  opacity: .5;
+}
+
+.list-main-ul {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin-top: 20px; /* Remove margins */
+}
+
+.list-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.ul-left {
+  margin-right: 50px;
+}

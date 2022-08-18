@@ -16,3 +16,35 @@
  color: rgb(218, 208, 215);
   
 }
+
+#countdown {
+    color: red;
+    opacity: .5;
+}
+
+.spots-h1 {
+    font-size: 16px;
+
+}
+
+.count-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: sp;
+}
+
+.spots-h1 {
+    margin-right: 10px;
+}
+
+.count-component {
+    margin-right: 10px;
+    
+}
+
+.count-box {
+    background-color: grey;
+    opacity: .8;
+    margin-top: 10px;
+    padding: 5px;
+}

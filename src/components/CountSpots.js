@@ -18,18 +18,18 @@ const CountSpots = () => {
             if (currentCount < 1) {
                 return;
             }
-            const id = setInterval(timer, 1500);
+            const id = setInterval(timer, 5000);
             return () => clearInterval(id);
         },
         
     );
 
     return (
-        <div className='count-box'>
-                <h1 className="main-h1-count">Leads<br/>Generated<br/></h1>
+            <div className='count-box'>
+                <h2 className="spots-h1">Spots remaining:</h2>
                 <span className='count-component'>{currentCount}</span> 
                 <div id="countdown"></div>
-                </div>
+            </div>
        
     )
 };

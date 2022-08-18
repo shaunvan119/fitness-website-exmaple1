@@ -2,7 +2,7 @@ import React from "react";
 import Clock from "./Clock";
 
 const App = () => {
-  let deadline = "January, 10, 2030";
+  let deadline = "November, 1, 2022";
 
   return (
     <div className="App">

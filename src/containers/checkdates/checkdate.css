@@ -1,5 +1,18 @@
-ul {
+.list-ul {
   list-style-type: none; /* Remove bullets */
   padding: 0; /* Remove padding */
   margin: 0; /* Remove margins */
+}
+
+.list-dates {
+  margin-bottom: 40px;
+  font-size: 25px;
+}
+
+.heading-main {
+  margin-bottom: 40px;
+}
+
+.count-font {
+  font-size: 16px;
 }
