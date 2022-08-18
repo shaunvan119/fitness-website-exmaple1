@@ -17,10 +17,12 @@
   
 }
 
-#countdown {
+#countdown, #countdownTwo, #countdownThree, #countdownFour {
     color: red;
     opacity: .5;
 }
+
+
 
 .spots-h1 {
     font-size: 16px;

@@ -16,3 +16,13 @@
 .count-font {
   font-size: 16px;
 }
+
+.button-reserve {
+  padding: 20px;
+  width: 516.47px;
+  font-size: 20px;
+  opacity: .5;
+  border: none;
+  border-radius: 10px;
+
+}

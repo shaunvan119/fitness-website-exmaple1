@@ -5,6 +5,7 @@ import CountSpots from '../../components/CountSpots'
 import CountSpotsTwo from '../../components/CountSpotsTwo'
 import CountSpotsThree from '../../components/CountSpotsThree'
 import CountSpotsFour from '../../components/CountSpotsFour'
+import { Link } from 'react-router-dom'
 
 const CheckDates = () => {
   return (
@@ -22,6 +23,7 @@ const CheckDates = () => {
         <li className="list-dates">kamala Beach, Phuket Thailand October 1st 2023 <span className='count-font'><CountSpotsThree/></span></li>
         <li className="list-dates">kamala Beach, Phuket Thailand November 1st 2023 <span className='count-font'><CountSpotsFour/></span></li>
      </ul>
+     <Link to="/contactUs"><button className='button-reserve'>More info</button></Link>
    
     
 
