@@ -3,6 +3,7 @@ import videoBg from "../../assets/videoBg.mp4"
 import Count from '../../components/Count'
 import logo from "../../assets/logo.png"
 import { Link } from "react-router-dom";
+import PopUp from '../../components/PopUp';
 
 
 const Main = () => {
@@ -18,7 +19,9 @@ const Main = () => {
   
     <video src={videoBg} autoPlay loop muted/>
     <div className="content">
+
     <Link to="/CheckDates"><button className='button-dates'>Check dates</button></Link>
+    <PopUp/>
     <img src={logo} alt="Logo" className="logo" />
     <h1 className='heading-main'>Thailand Health Retreat</h1>
     <p className='p-main'>Next Trip</p>

@@ -1,0 +1,16 @@
+.popup-wrapper {
+ position: absolute;
+ 
+  top: 0;
+  margin: 40px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  width: 120px;
+  background-color: white;
+  font-size: 18px;
+  opacity: .8;
+  
+  
+}
+
