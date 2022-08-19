@@ -2,6 +2,7 @@ import React, { useState, useRef } from "react"
 import emailjs from "@emailjs/browser"
 import './contactform.css'
 import videoBg from "../assets/videoBg.mp4"
+import logo from "../assets/logo.png"
 
 
 
@@ -56,7 +57,9 @@ const ContactForm = () => {
     
   
     <video src={videoBg} autoPlay loop muted/>
+
     <div className="content">
+    <img src={logo} alt="Logo" className="logo" />
     
      <form className="form-contact" ref={form} onSubmit={sendEmail}>
         <label>Name</label>
