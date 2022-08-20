@@ -33,11 +33,25 @@ const Clock = ({ deadline }) => {
   }, [deadline]);
 
   return (
+    <div>
+    <div className="clock-none">
     <div className="clock-wrapper">
       <div className="Clock-box">{leading0(days)}<br/> Days</div>
       <div className="Clock-box">{leading0(hours)}<br/> Hours</div>
       <div className="Clock-box">{leading0(minutes)}<br/> Minutes</div>
       <div className="Clock-box">{leading0(seconds)}<br/> Seconds</div>
+    </div>
+</div>
+    <div className="clock-wrapper-mobile">
+    <div>
+      <div className="Clock-box">{leading0(days)}<br/> Days</div>
+      <div className="Clock-box">{leading0(hours)}<br/> Hours</div>
+      </div>
+      <div>
+      <div className="Clock-box">{leading0(minutes)}<br/> Minutes</div>
+      <div className="Clock-box">{leading0(seconds)}<br/> Seconds</div>
+      </div>
+    </div>
     </div>
   );
 };

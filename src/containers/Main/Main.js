@@ -3,7 +3,7 @@ import videoBg from "../../assets/videoBg.mp4"
 import Count from '../../components/Count'
 import logo from "../../assets/logo.png"
 import { Link } from "react-router-dom";
-import PopUp from '../../components/PopUp';
+
 
 
 const Main = () => {
@@ -21,7 +21,7 @@ const Main = () => {
     <div className="content">
 
     <Link to="/CheckDates"><button className='button-dates'>Check dates</button></Link>
-    <PopUp/>
+   
     <img src={logo} alt="Logo" className="logo" />
     <h1 className='heading-main'>Thailand Health Retreat</h1>
     <p className='p-main'>Next Trip</p>
@@ -38,8 +38,12 @@ const Main = () => {
         <li className="list-included">14 exercise sessions</li>
         <li className="list-included">8 yoga sessions</li>
         <li className="list-included">Return flights</li>
+
       </ul>
+      
     </div>
+
+    <Link to="/CheckDates"><button className="button-mobile">Check Dates</button></Link>
 
     </div>
     

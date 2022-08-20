@@ -85,3 +85,118 @@ video {
 .ul-left {
   margin-right: 50px;
 }
+
+@media  (max-width: 545px) {
+
+.ul-left {
+ 
+  margin-bottom: -20px;
+}
+  
+.logo {
+ height: 300px;
+
+}
+
+.heading-main {
+  font-size: 32px;
+}
+
+.Clock-box {
+  font-size: 15px;
+  margin: -400px;
+  margin-right: -10px;
+  
+}
+
+.list-included {
+  font-size: 15px;
+  
+}
+
+.list-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+}
+
+@media  (max-width: 407px) {
+
+  .logo {
+   padding-top: 100px;
+  }
+
+  .ul-left {
+  margin-right: -50px;
+  }
+
+.button-dates {
+  display: none;
+}
+
+.logo {
+  margin-top: 100px;
+}
+  
+.clock-wrapper-mobile {
+  display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    background-color: rgb(24, 23, 23);
+    opacity: .5;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.clock-none {
+ display: none;
+}
+
+.list-wrapper {
+ display: flex;
+ flex-direction: column;
+ 
+}
+
+.button-mobile {
+  margin-top: 50px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  width: 220px;
+  background-color: white;
+  font-size: 18px;
+  opacity: .8;
+
+}
+
+video {
+  height: 140vh;
+}
+
+.overlay {
+  height: 140vh;
+}
+
+
+
+}
+
+
+
+
+@media  (min-width: 407px) {
+  .clock-wrapper-mobile {
+    display: none;
+  }
+
+  .button-mobile {
+    display: none;
+  }
+  
+
+
+}
