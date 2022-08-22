@@ -27,3 +27,17 @@
   border-radius: 10px;
 
 }
+
+
+@media  (max-width: 524px) {
+
+.list-dates {
+  font-size: 18px;
+}
+
+.button-reserve {
+  width: 371px;
+}
+
+
+}

@@ -123,7 +123,7 @@ video {
 
 }
 
-@media  (max-width: 407px) {
+@media  (max-width: 477px) {
 
   .logo {
    padding-top: 100px;
@@ -188,7 +188,7 @@ video {
 
 
 
-@media  (min-width: 407px) {
+@media  (min-width: 477px) {
   .clock-wrapper-mobile {
     display: none;
   }
