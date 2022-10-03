@@ -17,3 +17,25 @@ input {
 textarea {
   opacity: .5;
 }
+
+@media  (max-width: 524px) {
+
+input {
+  width: 250px;
+  
+}
+
+
+.logo_mobile {
+  margin-top: -200px ;
+}
+
+.last_input {
+
+}
+
+
+
+  
+
+}

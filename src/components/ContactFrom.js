@@ -59,7 +59,7 @@ const ContactForm = () => {
     <video src={videoBg} autoPlay loop muted/>
 
     <div className="content">
-    <img src={logo} alt="Logo" className="logo" />
+    <img src={logo} alt="Logo" className="logo logo_mobile" />
     
      <form className="form-contact" ref={form} onSubmit={sendEmail}>
         <label>Name</label>
@@ -69,7 +69,7 @@ const ContactForm = () => {
         <label >Message</label>
         <textarea className="input-contact" name="message" />
         <div> {result ? <Result/> : null}</div>
-        <input className="input-button" type="submit" value="Send" />
+        <input className="input-button  last_input" type="submit" value="Send" />
       </form>
    
      

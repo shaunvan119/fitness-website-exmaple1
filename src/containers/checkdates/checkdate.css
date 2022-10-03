@@ -33,11 +33,16 @@
 
 .list-dates {
   font-size: 18px;
+
+  text-align: center;
 }
 
 .button-reserve {
-  width: 371px;
+  width: 271px;
 }
 
+.count-box {
+  justify-content: center;
+}
 
 }
